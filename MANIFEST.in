@@ -1,0 +1,16 @@
+# Include the README and LICENSE files in source distributions
+include README.md
+include LICENSE
+
+# Exclude build artifacts and egg-info metadata
+exclude build/*
+exclude dist/*
+exclude *.egg-info/*
+
+# Exclude test caches and pycache
+prune .pytest_cache
+prune tests/__pycache__
+
+# Exclude OS junk files
+exclude **/.DS_Store
+
