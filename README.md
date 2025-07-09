@@ -1,8 +1,9 @@
+![codecov](https://codecov.io/gh/avirsaha/treemark/branch/main/graph/badge.svg)
+
 #  TreeMark
 
 **TreeMark** is a lightweight Python CLI tool that generates a clean, readable **Markdown** representation of your project’s directory structure. Perfect for documentation, code walkthroughs, and feeding structured project info to LLMs.
 
----
 
 ##  Features
 
@@ -12,7 +13,6 @@
 * 🎯 Supports selecting only certain top-level items
 * ✅ No external dependencies, pure Python!
 
----
 
 ## 📦 Installation
 
@@ -30,7 +30,6 @@ Once installed, run it using:
 treemark
 ```
 
----
 
 ### 🛠️ From Source
 
@@ -48,7 +47,6 @@ Or install in editable mode (for development):
 pip install -e .
 ```
 
----
 
 ##  Usage
 
@@ -60,7 +58,6 @@ treemark
 
 This generates a Markdown representation of the current directory.
 
----
 
 ### Options
 
@@ -73,7 +70,6 @@ This generates a Markdown representation of the current directory.
 | `--version`     | Display version info and exit                                  |
 | `-h, --help`    | Show help message and exit                                     |
 
----
 
 ### Example
 
@@ -93,7 +89,6 @@ Output:
     └── utils.py
 ```
 
----
 
 ##  Ideal For
 
@@ -102,7 +97,6 @@ Output:
 * Prompting LLMs with structural context
 * Static documentation sites
 
----
 
 ##  Testing
 
@@ -112,7 +106,6 @@ pytest
 
 Tests are located in the `tests/` directory.
 
----
 
 ## 🧹 Cleanup (Dev Only)
 
@@ -130,14 +123,12 @@ Remove-Item -Recurse -Force build, dist, *.egg-info
 rm -rf build dist *.egg-info
 ```
 
----
 
 ## 🐛 Troubleshooting
 
 * **PermissionError**: If you get access errors (e.g., `System Volume Information` on Windows), TreeMark now safely skips such directories.
 * **Output looks weird?** Make sure you’re viewing the output in a Markdown-capable viewer like GitHub or VSCode preview.
 
----
 
 ##  Contributing
 
@@ -151,20 +142,17 @@ We welcome PRs and suggestions!
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md) for more.
 
----
 
 ## 📜 License
 
 [MIT License](LICENSE) © 2025 Aviraj Saha
 
----
 
 ## 🔗 Related Projects
 
 * [`tree`](https://man7.org/linux/man-pages/man1/tree.1.html) (Linux command)
 * [`py-tree`](https://pypi.org/project/tree/) — CLI tree views, not markdown-focused
 
----
 
 ## ✅ TODOs
 
@@ -173,7 +161,6 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) for more.
 * [ ] Add theme options (ASCII vs Markdown)
 * [ ] Add badge support
 
----
 
 ## 📣 Stay in Touch
 
