@@ -1,4 +1,5 @@
 ![codecov](https://codecov.io/gh/avirsaha/treemark/branch/main/graph/badge.svg)
+![Test Status](https://github.com/avirsaha/treemark/actions/workflows/test.yml/badge.svg)
 
 #  TreeMark
 
