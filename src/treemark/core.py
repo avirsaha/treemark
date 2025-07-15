@@ -10,7 +10,7 @@ def format_size(bytes):
 
 def generate_markdown_tree(root_dir='.', prefix='', ignore=None, select_only=None,
                            max_depth=None, current_depth=0, show_sizes=False, markdown=True):
-    if max_depth is not None and current_depth > max_depth:
+    if max_depth is not None and current_depth >= max_depth:
         return []
 
     try:
